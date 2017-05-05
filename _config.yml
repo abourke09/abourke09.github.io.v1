@@ -1,0 +1,21 @@
+# Site settings
+title: Square One
+header-img: img/home-bg.png
+email: aabourke@gmail.com
+copyright_name: abourke09
+description: > # this means to ignore newlines until "baseurl:"
+  "The secret of getting ahead is getting started." -Mark Twain
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  abourke09
+learn_profile: abourke09
+email_username: aabourke@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
