@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Project"
-date:       2018-04-26 19:28:39 +0000
+date:       2018-04-26 15:28:40 -0400
 permalink:  cli_project
 ---
 
@@ -19,7 +19,7 @@ Before I even read the CLI Project description in the curriculum, I’d heard pe
 * BEFORE you start coding anything, run “curl [your-website-url]” in your terminal (explained further below).
 * Once you’ve picked an appropriate website, ask yourself how you’ll organize your file structure for your project. Then, and only then, can you start coding. 
 * When you do start coding, feel free to rewatch the CLI Gem Walkthrough video again and reference other students’ examples as you go along.
-* For help on your CLI Project, you can schedule up to four sessions with instructional support. More info here: http://help.learn.co/instructional-support/receiving-course-support/who-can-i-contact-for-help-on-my-portfolio-project 
+* For help on your CLI Project, you can schedule up to four sessions with instructional support. More info [here](http://help.learn.co/instructional-support/receiving-course-support/who-can-i-contact-for-help-on-my-portfolio-project ).
 
 As you can see, I believe the biggest challenge of this project has nothing to do with coding. For me at least, it had everything to do with mental preparation and stepping out of my comfort zone for the first time. Regardless, it was an incredibly valuable lesson and I know I’m better off for having learned it.
 
