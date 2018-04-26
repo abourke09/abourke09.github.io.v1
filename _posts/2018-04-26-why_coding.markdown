@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Why Coding?"
-date:       2018-04-26 18:12:38 +0000
+date:       2018-04-26 14:12:38 -0400
 permalink:  why_coding
 ---
 
@@ -12,6 +12,6 @@ So I'm going to try- I'll do my best to learn what I can and not be intimidated 
 
 The truly stunning thing about coding -to me- is it's utility. I'm hard pressed to think of a situation where computer programing wouldn't be useful. It seems like no matter what impact you want to have on the world, this skillset can help in some way. 
 
-I'm hoping I can look back in five years and be proud of the progress I've made. Sometimes it's hard to tell when you're in the trenches whether you're making any headway at all. Perspective is everthing, so I'll settle for one small step at time and trust that it'll get me somewhere. 
+I'm hoping I can look back in five years and be proud of the progress I've made. Sometimes it's hard to tell when you're in the trenches whether you're making any headway at all. Perspective is everything, so I'll settle for one small step at time and trust that it'll get me somewhere. 
 
 
