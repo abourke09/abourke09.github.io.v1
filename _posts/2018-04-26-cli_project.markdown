@@ -28,5 +28,7 @@ You need to make sure your chosen website is appropriate for this project. Since
 
 A great way to check your website is to run it in terminal with “curl”. So first, open your computer’s terminal. Type “curl” then the url of your chosen website. See my screenshot below for an example. When you press Enter, you should see the website’s code print out the same way you see when using Inspect Element or View Source on the website itself. 
 
+![](https://imgur.com/oWkQdQ0)
+
 **A note about the legality of scraping:**
 Did you know that a lot of websites actively block users from scraping their website? When abused, scraping can really slow down a website. For that reason, there are sometimes features installed that block the IP address of users who attempt to scrape too much. If you’re interested in learning about it, Google around and read up on the subject. At the very least I’d look up your website’s “robots.txt” and learn how to interpret what’s allowed and what’s not on that particular site. 
