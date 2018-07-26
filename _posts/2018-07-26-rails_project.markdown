@@ -1,10 +1,11 @@
 ---
 layout: post
 title:      "Rails Project"
-date:       2018-07-26 20:12:39 +0000
+date:       2018-07-26 16:12:40 -0400
 permalink:  rails_project
 ---
 
+*The Movie Rental web application allows customers to log in to the platform and select a movie to "rent". They can sign up for a new account or log in with Facebook. Once logged in, the customer can view a list of movies, see further details about a given movie, and rent it. Once the movie is rented, it appears on the "My Rentals" page and, from there, the customer can choose to return it. After the customer returns the movie, they can add a famous quote to it for all the other customers to see. The web app will only allow a customer to rent a movie if they are old enough to watch it (based on the MPAA rating system).*
 
 The Rails Portfolio Project has been a nice opportunity to put some new tools to use. It's gratifying to be able to connect relational databases with user logins and display all of that through a few different page views. As with anything, the individual components only reach their full potential when used in concert with others.  
 
@@ -38,3 +39,6 @@ The web app's login page features the standard input fields to sign in and an op
     end
   end
 ```
+
+My favorite piece of this project was the join table (Rentals) connecting Customers and Movies. Other than facilitating the many-to-many relationiship for Customers/Movies, it's most important features was its `status` attribute. It allowed me to set the status to either "checked out" or "returned" depending on what action the custsomer had taken. I created a method `rent_movie` in the Rental class to check out a movie and made a return button on the My Rentals page for each movie a customer had rented. I made a few other methods in the Rental class- two that use ActiveRecord to scope a list of checked out movies or past movie rentals, and one that verifies that a customer is old enough to watch a certain movie (according to the MPAA rating). 
+
