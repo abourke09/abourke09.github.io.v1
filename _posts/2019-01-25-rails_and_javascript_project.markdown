@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails and Javascript Project"
-date:       2019-01-25 20:14:26 +0000
+date:       2019-01-25 15:14:27 -0500
 permalink:  rails_and_javascript_project
 ---
 
@@ -22,10 +22,12 @@ Before really diving into the deep end of JS/AJAX/JSON, it was helpful to have a
 Another crucial step near the beginning was staying in control of the DOM and preventing refreshes or rendering other urls. That meant paying close attention to the NavBar header on my application.html.erb view. To stay in control of the DOM, I created a function in my index.js file that would 'listen' for a click on my navbar. Then the function would determine which link was clicked, prevent the default redirect to a new page, and instead send the click action to a specific function in one of my JS files. It was helpful to organize these first few steps into one function called listenForNavClick(). 
 
 Of course, none of this would have been possible without the mighty document.ready function. Since the document.ready function is loaded first, it was responsible for setting my currentUser() and calling listenFornavClick(). Otherwise, there would be no way to hijack the nav clicks and none of my JS would be able to run. 
-	`$(function (){
+```
+	$(function (){
 		currentUser()
 		listenForNavClick()
-	})`
+	})
+```
 	
 At this point,  I've described how my project uses document.ready, event listeners, AMS JSON data, and AJAX requests to pluck information from my database and make it available in my Javacsript files. In order to display that data on the DOM, constructor functions and protoype functions were both extremely valuable to create instances of each object and display HTML on the DOM in a readable format. But there are two other parts of my project that stand out as different from the rest: the currentUser() function and the check_for_age attribute of Customer. 
 	
