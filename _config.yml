@@ -1,15 +1,14 @@
 # Site settings
+author: Annie Bourke
 title: Annie Bourke
 header-img: img/home-bg.png
 email: aabourke@gmail.com
-copyright_name: abourke09
+copyright_name: Annie Bourke
 description: > # this means to ignore newlines until "baseurl:"
   "The secret of getting ahead is getting started." -Mark Twain
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  abourke09
-learn_profile: abourke09
-email_username: aabourke@gmail.com
 
 # Build settings
 markdown: kramdown
